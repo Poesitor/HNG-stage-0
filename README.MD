@@ -51,13 +51,17 @@ Response:
 }
 ```
 
+- Rate Limiting: 100 requests per 20 minutes per IP
+
 ## Dependencies
 
 - express
 - axios
 - dotenv
 - typescript
+- zod
 - @types/express
 - @types/node
+- @types/express-rate-limit
 - ts-node
 - nodemon
