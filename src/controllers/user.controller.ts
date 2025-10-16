@@ -12,7 +12,7 @@ export const getUserProfile = async (req: Request, res: Response) => {
       name: config.user.name,
       stack: config.user.stack,
     },
-    timemstamp: new Date().toISOString(),
+    timestamp: new Date().toISOString(),
     fact: fact,
   };
 
